@@ -2,8 +2,11 @@ body {
     text-align: center;
 }
 header {
+    font-family: ;
     background-color: #1f2937;
 }
+
+
 
 footer {
     background-color: #1f2937;
@@ -15,7 +18,7 @@ h3 {
     color: #1f2937
 }
 
-h1 {
+.hero {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8
