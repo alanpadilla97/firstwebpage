@@ -19,6 +19,7 @@ ul {
 li{
     display: inline-block;
     margin: 20px;
+    font-size: 20px;
 }
 
 a{
@@ -27,14 +28,24 @@ a{
 }
 
 
+img {
+    height: 70px;
+    width: auto;
+}
+
 header {
+    display: flex;
     font-family:'Roboto';
     background-color: #1f2937;
 }
 
+article {
+    display: flex;
+}
 
 
 footer {
+    display: flex;
     background-color: #1f2937;
 }
 
@@ -57,6 +68,7 @@ h2 {
 }
 
 .container {
+    display: flex;
     background-color: #3882f6;
 }
 
