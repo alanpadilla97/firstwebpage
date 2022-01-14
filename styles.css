@@ -88,6 +88,7 @@ header {
 
 footer {
     display: flex;
+    justify-content: center;
     background-color: #1f2937;
 }
 
@@ -126,7 +127,16 @@ h2 {
 
 .container {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #3882f6;
+    width: auto;
+    margin-left: 220px;
+    margin-right: 220px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    
 }
 
 .Title {
@@ -178,10 +188,38 @@ article {
 }
 
 .pictures {
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  
+  
+  
 }
 
+.pics {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.Title {
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.secondsignupbutton {
+    display: flex;
+    justify-content: center;
+    width:auto;
+    padding: 15px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+    
+}
 
