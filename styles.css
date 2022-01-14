@@ -189,6 +189,7 @@ article {
 
 .pictures {
   display: flex;
+  justify-content: center;
   
   
   
@@ -196,8 +197,7 @@ article {
 
 .pics {
     display: flex;
-  align-items: center;
-  justify-content: center;
+    padding-left: 170px;
   
   
 }
